@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "f6f133e1-905f-4584-b8b5-814958c4b11c",
+		"name": "Teste4_API_Operadoras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38261201"
+	},
+	"item": [
+		{
+			"name": "Buscar Operadoras por Termo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/operadoras/busca?termo=bradesco",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"operadoras",
+						"busca"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "bradesco"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Operadoras - Itau",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/operadoras/busca?termo=itau",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"operadoras",
+						"busca"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "itau"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
